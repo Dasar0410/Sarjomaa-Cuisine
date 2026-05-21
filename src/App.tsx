@@ -1,6 +1,7 @@
 import './App.css'
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -57,6 +58,7 @@ function App() {
       )}
 
       </Routes>
+      <Analytics />
     </>
   )
 }
