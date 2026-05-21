@@ -20,6 +20,7 @@
     "@supabase/supabase-js": "^2.57.4",
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-query": "^5.90.20",
+    "@vercel/analytics": "^2.0.1",
     "boneyard-js": "^1.6.4",
     "browser-image-compression": "^2.0.2",
     "class-variance-authority": "^0.7.1",
